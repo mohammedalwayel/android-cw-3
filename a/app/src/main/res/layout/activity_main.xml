@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter the folloeing"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:background="#833CA55A"
+        android:ems="10"
+        android:hint="156"
+        android:inputType="number"
+        android:textColorLink="#B577B175"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="50dp"
+        android:background="#833CA55A"
+        android:ems="10"
+        android:hint="55"
+        android:inputType="number"
+        android:textColorLink="#B577B175"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="162dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="200dp"
+        android:background="#85DC7474"
+        android:text="ADDITOIN" />
+
+</LinearLayout>
